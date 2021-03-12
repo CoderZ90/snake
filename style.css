@@ -1,0 +1,25 @@
+* {
+    /* sets margin and pagging to 0; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.snake {
+    position: absolute;
+    border-radius: 50%;  /* sets border radius to 50% means circle */
+    background-size: 100%;
+    background: linear-gradient(45deg, #f0f, #f00);
+    width: 120px; /* sets width to 120px */
+    height: 120px;/* sets height to 120px */
+    transform: translate(-50%, -50%); 
+    /*  it sets the ball to middle of your mouse */
+}
+
